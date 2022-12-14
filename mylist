@@ -1,0 +1,5 @@
+mylist=[120,22,34,44,666,67,5]
+print(mylist)
+n=4
+mylist.sort()
+print("largest intergers from the list",mylist[-n:])
