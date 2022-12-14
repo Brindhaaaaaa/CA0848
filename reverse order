@@ -1,0 +1,11 @@
+  #nrml order and reverse order
+
+def sortstring(str):
+    return ' '.join(sorted(str))
+def reversestring(str):
+    return ' '.join(reversed(str))
+
+
+str=input()
+print(sortstring(str))
+print(reversestring(str))
